@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Staatliches&display=swap');
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: 'Pompiere', cursive;
+  font-weight: 300;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+.frame {
+  width: 90%;
+    text-align: center;
+    margin-top: 5vh;
+    /* margin-right: 68vh; */
+}
+.custom-btn {
+  color:black;
+  width: 42vh;
+  height: 40px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border-radius: 15px;
+}
+/* 6 */
+.btn-6 {
+  background: white;
+  line-height: 40px;
+  padding: 0;
+}
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-6:hover{
+  background: transparent;
+}
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 2px;
+  background: #ff2422;
+  border-radius: 15px;
+}
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+.btn-6:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  background: #ff2422;
+  border-radius: 15px;
+}
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-6 span:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-6 span:hover:before {
+  width: 100%;
+}
+.btn-6 span:hover:after {
+  width: 100%;
+}
+button:hover{
+  color: #ff2422;
+}
+button{
+  border:none;
+}
+.whats{
+background-color:green;
+color:white;
+font-size:34px;
+padding:05px;
+border-radius:25px;
+padding-right:10px;
+padding-left:10px;
+}
+.sin{float: right;
+    margin-top: 5vh;
+    margin-right: 5vh;
+    font-size:34px;}
+    .banner{ width:100%;height: 100%; margin-top:31px;}
+    .video{    width: 95%;
+      /* height: 50%; */
+      margin-left: 5vh;
+      margin-top: 17px;
+      border-radius: 20px;}
+/* for subtittle start */
+    :root {
+        --bg-color-1: #01BAEF;
+        --bg-color-2: #20BF55;
+        --font: 'Montserrat', sans-serif;
+      }
+      .fade:not(.show) {
+        opacity: 10 !important;;
+    }
+
+      .fade {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 13vh;
+        font-family: 'Lato';
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 35px;
+      }
+      
+      .dine {
+        color: black;
+        animation: fadeInRight 3s ease-in-out;
+      }
+      
+      @keyframes fadeInRight {
+        from {
+          opacity: 0;
+          transform: translateX(300px);
+        }
+        to {
+          opacity: 1;
+        }
+        
+      }
+      @keyframes fadeInleft {
+        from {
+          opacity: 0;
+          transform: translateX(500px);
+        }
+        to {
+          opacity: 1;
+        }
+        
+      }
+
+      /* subtittle end */
+      /* image animation start */
+      .side{margin-left: 12vh;}
+      .bottom{margin-bottom: 55px;}
+      .right-side {
+        color: black;
+        animation: fadeInRight 5.5s ease-in-out;
+        transition-delay: 2s;
+      }
+      .left-side {
+        color: black;
+        animation: fadeInleft 4.5s ease-in-out;
+        transition-delay: 4s;
+      } 
+      .slide{
+        margin-left: 10%;
+        margin-right: 41px;
+      }
+      .Piano{
+        margin-top: 3vh;
+        /* margin-top: 10vh; */
+    width: 100%;
+    text-align: center;
+    font: small-caps 15px Verdana;
+      }      /* image animation end */
+      hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 2px solid rgba(0, 0, 0, .1)!important;
+    }
+    
+    .card {
+      height: 22vh;
+      width: 59%;
+      border: 2px solid rgba(0, 0, 0, .1) !important;
+      border-radius: 10px !important;
+      padding-top: 27px;
+  }
+  .input{        
+    height: 46px;
+    width: 85%;
+    margin-left: 34%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  margin-bottom:10px;}
+  .contact{text-align: center;padding: 35px 0 35px 0; background-color: #f9f9f9 ;}
+  .size{font-size: 22px;font-weight: 600;padding-bottom: 10px;}
+  .checkbox{border: 1px solid #ccc;
+    margin-left: 38vh;
+    width: 85%;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  font-weight: 600;}
+  .input-check{
+     font-size: 23px;
+  }
+   .textarea{
+    margin-left: 38vh;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 85%;
+    height: 30vh;
+   } 
+   .submit{
+    background-color: #f82321;
+    color: white;
+    width: 30%;
+    height: 8vh;
+    border: 1px solid #f82321;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-right: 1vh;
+   }
+   .col_1{    
+    text-align: left;
+    margin-top: 13px;
+    font-weight: 600;
+    font-size: 18px;}
+      .col_3{padding-left: 43px;margin-top: -35px;font-size: 20px; margin-bottom:24px;}
+      .col_31{padding-left: 43px;margin-top: -28px;font-size: 20px; margin-bottom:24px;}
+      .a{       
+        float: right;
+        margin-top: -39px;
+        font-size: 24px;
+        color: darkgray;
+        font-weight: 600;
+        margin-right: 16px;}
+.a:hover{
+  color: darkgray;
+  text-decoration: none;
+}
+.hide-1{
+  visibility: hidden;
+  display: none;
+}
+.lol{width: 22vh;height: 50px;margin-top: 32px;}
+.view-1{
+  visibility: visible;
+display: block;
+}
+.phone {
+  width: 94vh;
+  padding-left: 10vh;
+}
+/* .centered {
+  position: absolute;
+  top: 77%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 58px;
+  width: 100%;
+} */
+@media only screen and (max-width: 600px) {
+  .sin{
+    margin-top: 5vh !important;
+    margin-right: 20% !important;
+    font-size:25px!important;}
+    .frame{
+      margin-right: 3vh;
+    }
+    .video{    width: 100% !important;
+      /* height: 50%; */
+      margin-left:0px !important;
+      margin-top: 17px !important;
+      border-radius: 20px !important;}
+      .image{
+        width: 50vh;
+      }
+      .slide{
+        margin-left: 0 !important;
+      }
+      .slide_1{
+        margin-right: 0 !important;
+      }
+      .para{margin-left: 61px;}
+      /*  .image_1{margin-top:-79%} */
+      .card {
+        height: 32vh;
+        width: 93%;
+        border: 2px solid rgba(0, 0, 0, .1) !important;
+        border-radius: 10px !important;
+        padding-top: 27px;
+    }
+    .input {
+      height: 46px;
+      width: 85%;
+      margin-left: 9%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+  }
+  .checkbox{margin-left:9vh; width: 78%;}
+  .textarea{
+    margin-left: 9vh;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 75%;
+    height: 30vh;
+   } 
+   .foot{padding-left: 0% !important; text-align: center !important;}
+   .col_1{text-align: center;}
+   .right-1{margin-right: 55vh;}
+   .right-2{margin-right: 61vh;}
+  .right-3{margin-right: 27vh;}
+  .a {
+    float: right;
+    margin-top: -6px !important;
+    font-size: 24px;
+    color: darkgray;
+    font-weight: 600;
+    margin-right: 19vh;
+}
+.foot-1{margin-left: 52px;}
+.view{
+  visibility: visible;
+  display: block;
+}
+.hide{
+  visibility: hidden;
+  display: none;
+}
+.voil{margin-top: -41vh !important;}
+.voil-1{margin-left: 10vh !important;}
+.many{margin-left: 0 !important;}
+.hit{margin-top: -50vh !important;}
+.kid{width: 85%;
+margin-top: 9%;
+text-align: center;
+margin-left: 48px;
+} 
+ .high{text-align: center;
+    margin-left: 10vh;
+    width: 100%;
+    margin-top: 21px;} 
+    .container-fluid{padding-left: 0 !important;}
+    .kid-img{margin-top: 45vh;}
+    .inst{margin-left: 17vh;}
+    .phone{       width: 39vh;
+      margin-right: -4vh !important;
+    padding-left: 5vh;}
+    .frame {
+      width: 90%;
+     text-align: center;
+     margin-top: 6vh;
+     margin-right: 0vh !important;
+     margin-left: 3vh;
+   }
+   .custom-btn {
+    color: black;
+    width: 28vh;
+    height: 40px;
+    padding:0px !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 9px;
+    margin-top: 15px;
+}
+.iti {
+  position: relative;
+  display: inline-block;
+}
+.sin{margin-left: 55px;}
+}
+@media only screen and (max-width: 1024px) {
+  
+.frame {
+   width: 90%;
+  text-align: center;
+  margin-top: 6vh;
+  margin-right: 0vh !important;
+  margin-left: 3vh;
+}
+.view{
+  visibility: visible;
+  display: block;
+}
+.hide{
+  visibility: hidden;
+  display: none;
+}
+.guitar{
+  margin-left: 24vh;
+  width: 64%;
+}
+.inst{margin-left: 17vh !important;} 
+.chess{ width: 51vh;}
+.forkids{margin-top: 9vh;}
+.forkids-para{margin-top: 10vh; margin-left: 10vh;}
+ .key{margin-left: 30px;}
+ .key-para{width: 51vh;} 
+ .chess-para{margin-left: 20vh;}
+ .Harmonium{margin-left: 50px;}
+ .card {
+  height: 30vh;
+  width: 59%;
+  border: 2px solid rgba(0, 0, 0, .1) !important;
+  border-radius: 10px !important;
+  padding-top: 27px;
+}
+.iti {
+  position: relative;
+  display: inline-block;
+  margin-left: 35vh;
+}
+.side{margin-left: 7vh;}
+}
+@media only screen and (max-width: 800px) {
+  .frame {
+    width:auto !important;
+    text-align: center;
+    margin-top: 3vh;
+    margin-right: 0vh !important;
+    margin-left: 3vh;
+}
+.logo{width: 14vh !important;}
+.custom-btn {
+  color: black;
+  width: 16vh !important;
+  font-size: 13px !important;} 
+  .sin {
+    float: right;
+    margin-top: 32px;
+    margin-left: 5vh;
+    margin-right: 0vh !important;
+    font-size: 34px;
+}
+.video {
+  width: 95%;
+  margin-left: 20px !important;
+  margin-top: 17px;
+  border-radius: 20px;
+}
+.key-para{width: 24vh;} 
+.key{margin-top:10px !important;}
+.guitar {
+  margin-left: 8vh;
+  width: 64%;
+}
+.inst{
+    margin-left: 6vh !important;
+    margin-top: 6px !important;
+}
+.Harmonium{
+  margin-top: 5px !important;
+}
+.forkids{margin-top: 0vh !important;}
+.forkids-para {
+  margin-top: 1vh !important;
+  margin-left: 3vh !important;
+}
+}
